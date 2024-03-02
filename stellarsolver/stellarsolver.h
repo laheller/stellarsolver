@@ -7,6 +7,8 @@
 */
 #pragma once
 
+#include <locale.h>
+
 //Includes for this project
 #include "structuredefinitions.h"
 #include "wcsdata.h"

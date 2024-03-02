@@ -1,0 +1,21 @@
+Prerequisites:
+==============
+- Linux OS to build everything, Ubuntu for example
+- Cmake, pkgconfig
+- Android NDK latest version
+- QT 5.14.x for Linux, available at "https://download.qt.io/archive/qt/5.14/5.14.2/"
+- Dependency libraries: cfitsio, gsl, wcslib
+- Either build yourself the dependency libraries or download the prebuilt versions from "https://github.com/laheller/The-great-Android-native-library-collection"
+
+Configure:
+==========
+- Edit the script file "_build/android_build_aarch64_clang.sh" and adjust all the lines with path "${HOME}/..." to correct values!
+- Run the script "_build/android_build_aarch64_clang.sh" and follow the instructions displayed when it finishes
+
+Build & install:
+================
+make
+make install
+
+
+Ready to use stuff is at "_deploy_aarch64" when build & install finishes.
